@@ -1,0 +1,75 @@
+.App{
+  flex-direction: column;
+  overflow: scroll;
+}
+.background{
+  height: 200%;
+  width: 200%;
+  position:fixed;
+  z-index: -1;
+}
+/* body {
+  --main-bg-color: #222222;
+background-image: url('http://www.heathrowe.com/tuts/gridimages/8.gif');
+background-size: fill;
+
+
+animation: AnimationName 10s  infinite;
+
+
+background-color: var(--main-bg-color);
+}
+    @keyframes AnimationName { 
+        0%{background-position:0% 0%}
+        100%{background-position:100% 0%}
+    } */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}    
+input,textarea{
+  color: white;
+}
+button:focus{
+  outline-style:none;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+}
+
+.m10{
+  margin: 10px;
+}
+
+.curved {
+ border-radius: 6px;
+}
+
+.shadowed{
+  z-index: 1;
+box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.inner-shadow{
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 10px inset;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.animated{
+  transition: all ease 0.3s;
+  transform: rotate(0deg);
+
+}
+
+.animated:hover{
+  transition: all ease 0.3s;
+  transform: rotate(7deg);
+}
+.jump:hover{
+  transition: all ease 0.2s;
+  transform: scale(1.1,1.1);
+}

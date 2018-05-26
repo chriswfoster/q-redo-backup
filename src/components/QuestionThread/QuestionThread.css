@@ -1,0 +1,18 @@
+.question-thread-container{
+  min-width: 60vw;
+  padding: 10px;
+}
+
+.best-answer{
+  border: solid green;
+}
+
+.answers-holder{
+  width:100%;
+  z-index:3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

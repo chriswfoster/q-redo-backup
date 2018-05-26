@@ -1,0 +1,12 @@
+.userlist-main-container {
+  width: 157px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--main-box-color);
+  float: right;
+  padding: 10px 0 10px 0;
+}
+

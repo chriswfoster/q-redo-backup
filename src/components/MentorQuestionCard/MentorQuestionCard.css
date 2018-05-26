@@ -1,0 +1,122 @@
+#code-col{
+  background: var(--main-bg-color);
+  color: var(--main-blue-color);
+  border: none;
+}
+.user-question-card{
+  background-color: var(--main-box-color);
+  width: 520px;
+  color: white;
+  display: flex;
+}
+
+.uq-left-side{
+  width: 60%;
+  height: 100%;
+}
+.uq-top-left{
+width: 100%;
+position: relative;
+}
+
+.uq-right-side{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.user-question-card .user-card {
+  color: #d4d4d4;
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.user-question-card span{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  width: 40%;
+  font-size: 2em;
+  text-align: center;
+}
+.user-question-card .user-card-right {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-question-card .user-card-left {
+  width: 30%;
+}
+.user-question-card .user-card-right > small{
+  width: 100%;
+  font-size: 1.2em;
+}
+.user-question-card .bigCircle{
+  border-radius: 50px;
+  border-width: 4px;
+  height: 75px;
+  width: 75px;
+  /* background: rgb(115, 159, 189); */
+  outline: none;
+  background: var(--main-blue-color);
+  font-size: 2em;
+  color: white;
+}
+.user-question-card .bigCircle:hover{
+  transition: all ease 0.3s;
+  background: var(--main-bg-color);
+  color: var(--main-blue-color);
+}
+.user-question-card .topicPill{
+  margin-top: 0px !important;
+    padding-left: 10px !important;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:4px;
+    margin-left:6px;
+    width: 150px;
+    min-height: 30px;
+    font-size: 1.4em;
+    display: flex;
+    border-radius: 22px;
+    border-width: 3px;
+    align-items: center;
+    align-content: center;
+}
+
+.user-help-card{
+  background-color: var(--main-box-color);
+  min-height: 160px;
+  width: 520px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.cancel-help-btn{
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  background: var(--main-bg-color);
+  border: none;
+}
+
+.uq-left-side img, .user-help-card>span> img{
+ height: 28px; 
+}
